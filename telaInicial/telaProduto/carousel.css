@@ -25,7 +25,6 @@ header{
 
 .card{
   margin-top: 2rem;
-  
 }
 
 /* Since positioning the image, we need to help out the caption */
@@ -36,23 +35,11 @@ header{
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 35rem;
+  height: 20rem;
 }
 
 .card-header{
   text-align: center;
-}
-
-.card-title{
-  padding-top: 2rem;
-}
-.card-text{
-  padding-bottom: 9rem;
-}
-
-.list-group-item{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .btn-primary {
@@ -106,6 +93,21 @@ header{
   --bs-gradient: none;
 }
 
+
+element.style {
+}
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color,inherit);
+}
+
 .text-bg-primary {
   color: #fff!important;
   background-color: RGBA(45,39,133,var(--bs-bg-opacity,1))!important;
@@ -132,10 +134,16 @@ display: flex;
 flex-wrap: inherit;
 background-color:#2D2785;
 }
-
+/*configuração links cascata de páginas no canto superior direito*/
 .container-breadcrumb{
   padding-left:0.5rem;
   padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.container-pagenum{
+  padding-left:1rem;
+  padding-top:2rem;
   padding-bottom: 0.5rem;
 }
 
@@ -202,7 +210,6 @@ background-color:#2D2785;
   border-radius: var(--bs-border-radius);
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
 [data-bs-theme=dark] {
   color-scheme: dark;
   --bs-body-color: #adb5bd;
@@ -255,7 +262,6 @@ background-color:#2D2785;
   --bs-form-invalid-color: #ea868f;
   --bs-form-invalid-border-color: #ea868f;
 }
-
 
 .dropdown-item {
   display: block;
@@ -322,8 +328,10 @@ background-color:#2D2785;
 }
 
 
+
+
 .featurette-divider {
-  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 10rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
