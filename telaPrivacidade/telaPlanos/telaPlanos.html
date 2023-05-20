@@ -102,23 +102,6 @@
         --bs-btn-active-bg: #5a23c8;
         --bs-btn-active-border-color: #5a23c8;
       }
-
-      .btn-outline-primary {
-    --bs-btn-color: #2d2785;
-    --bs-btn-border-color: #2d2785;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #2d2785;
-    --bs-btn-hover-border-color: #2d2785;
-    --bs-btn-focus-shadow-rgb: 13,110,253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #2d2785;
-    --bs-btn-active-border-color: #2d2785;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #2d2785;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #0d6efd;
-    --bs-gradient: none;
-}
       .bd-mode-toggle {
         z-index: 1500;
       }
@@ -199,44 +182,6 @@
       --bs-btn-active-border-color: #2D2785;
     }
 
-    .form-control {
-    display: block;
-    width: 100%;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #ffffff;
-    background-color: #2D2785;
-    background-clip: padding-box;
-    border: var(--bs-border-width) solid var(--bs-border-color);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: var(--bs-border-radius);
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-    .form-control-2{
-      display: block;
-      width: 100%;
-      padding: 0.375rem 0.75rem;
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.5;
-      color: #ffffff;
-      background-color: #fff;
-      background-clip: padding-box;
-      border: var(--bs-border-width) solid var(--bs-border-color);
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      border-radius: var(--bs-border-radius);
-      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    }
-
-    
-    
     .bd-mode-toggle {
       z-index: 1500;
     }
@@ -293,62 +238,121 @@
 
   </nav>
   
-</header>
-  </head>
-
-  <main class="form-signin w-100 mx-auto text-center">
-    <div class="d-flex justify-content-center">
-      <form>
-        <img class="mb-4" src="logo.png" alt="" width="150" height="150">
-        <h1 class="h3 mb-3 fw-normal">Faça o seu login!</h1>
-     
   
-        <div class="form-group">
-          <label for="email"></label>
-          <label for="email">Email</label>
-          <input type="email" class="form-control-2" id="email" placeholder="ra@uniso.br">
-          <div class="invalid-feedback">
-            Please enter a valid email address for shipping updates.
+  
+</header>
+
+<main>
+
+  <body class="bg-body-tertiary">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path
+          d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path
+          d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+        <path
+          d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path
+          d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+      </symbol>
+    </svg>
+
+    <div class="container">
+      <main>
+  
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4"
+          src="Logo.png"
+          alt="" width="150" height="150">
+
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal">Conheça nossos planos.</h1><br>
+          <p class="fs-5 text-body-secondary">Escolha o seu plano e faça parte da comunidade Conect Us, junte-se aos melhores profissionais
+             da comunidade acadêmica. </p>
+        </div>
+
+      </div>
+  
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Start</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R$5<small class="text-body-secondary fw-light">/mês</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>1 anúncio</li>
+                  <li>E-mail para suporte</li>
+                </ul>
+                <a href="telaAssinatura/telaAssinatura.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Assinar</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R$10<small class="text-body-secondary fw-light">/mês</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>5 anúncios</li>
+                  <li>E-mail para suporte</li>
+                </ul>
+                <a href="telaAssinatura/telaAssinatura.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Assinar</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Premium</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R$20<small class="text-body-secondary fw-light">/mês</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>15 anúncios</li>
+                  <li>E-mail para suporte</li>
+                </ul>
+                <a href="telaAssinatura/telaAssinatura.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Assinar</button></a>
+              </div>
+            </div>
           </div>
         </div>
-  
-        <div class="form-group">
-          <label for="senha">Senha</label>
-          <input type="password" class="form-control-2" id="senha" placeholder="" required>
-          <div class="invalid-feedback"></div>
+    
         </div>
-  
-        <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me"> Mantenha-me Conectado
-          </label>
         </div>
+      </main>
   
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
-  
-        <ul class="list-unstyled">
-          <li class="mb-3"><a href="#" style="color: #2d2785;"></a></li>
-          <li class="mb-2"><a href="#" style="color: #2d2785;">Esqueceu sua senha? Clique aqui!</a></li>
-          <li class="mb-3"><a href="telaCadastro/telaCadastroFINAL.html" style="color: #2d2785;">Ainda não tem uma conta? Clique aqui!</a></li>
-        </ul>
-      </form>
-    </div>
-  </main>
   
 
-  <footer class="my-5 pt-5 text-body-secondary text-center text-small">
-    <p class="mb-1">&copy; 2023 Conect US</p>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacidade</a></li>
-      <li class="list-inline-item"><a href="#">Termos</a></li>
-      <li class="list-inline-item"><a href="#">FAQ</a></li>
-    </ul>
-  </footer>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+      <!-- FOOTER -->
+      <footer class="my-5 pt-5 text-body-secondary text-center text-small">
+      <p class="mb-1">&copy; 2023 Conect US</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#" style="color: #2d2785;">Privacidade</a></li>
+        <li class="list-inline-item"><a href="#" style="color: #2d2785;">Termos</a></li>
+        <li class="list-inline-item"><a href="#" style="color: #2d2785;">Suporte</a></li>
+      </ul>
+      </footer>
+
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
   </body>
 </html>
-
