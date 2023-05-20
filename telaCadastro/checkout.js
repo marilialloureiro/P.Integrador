@@ -1,3 +1,7 @@
+type="text/javascript"
+
+alert('Seja bem vindo(a)!');
+
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
   'use strict'
