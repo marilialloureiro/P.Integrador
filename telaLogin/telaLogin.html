@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.111.3">
-    <title>Conect Us</title>
+    <title>Conect Us | Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-2q7XgKo2SZ95HjaDlSv+L7Vu1MQwNlV8W4+4lDGCU5/F5z5+9r5JrP5ZMwIfQfIef3n1KNUvC8Bm+Ib/9U6OKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -253,7 +253,7 @@
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md fixed-top">
     <div class="container-fluid align-items-center">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="telaInicial/telaInicio.html">
         <img class="d-block mb-6" src="logoBranco.png" alt="" width="100" height="50">
       </a>
     <div class="dropdown">
@@ -261,13 +261,13 @@
             Menu
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Produtos</a>
-            <a class="dropdown-item" href="#">Serviços</a>
+            <a class="dropdown-item" href="../telaProduto/Produtos.html">Produtos</a>
+            <a class="dropdown-item" href="../telaServiço/Serviços.html">Serviços</a>
         </div>
     </div>
     <ul class="navbar-nav me-auto mb-2 mb-md-0">
       <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Conheça os planos</a>
+          <a class="nav-link active" aria-current="page" href="../telaPlanos/telaPlanos.html">Conheça os planos</a>
       </li>
   </ul>
       <form class="d-flex mx-auto" role="search">
@@ -283,7 +283,7 @@
 
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
+                    <a class="nav-link active" aria-current="page" href="../telaLogin/telaLogin.html">
                         <img src="usuario_branco.png" alt="Ícone de Login" width="40" height="40" >
                     </a>
                 </li>
@@ -297,6 +297,17 @@
   </head>
 
   <main class="form-signin w-100 mx-auto text-center">
+
+    <div class="container-breadcrumb">
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+           <li class="breadcrumb-item active" aria-current="page">Login</li>
+        </ol>
+      </nav>
+    </div>
+  
+
     <div class="d-flex justify-content-center">
       <form>
         <img class="mb-4" src="logo.png" alt="" width="150" height="150">
@@ -329,7 +340,7 @@
         <ul class="list-unstyled">
           <li class="mb-3"><a href="#" style="color: #2d2785;"></a></li>
           <li class="mb-2"><a href="#" style="color: #2d2785;">Esqueceu sua senha? Clique aqui!</a></li>
-          <li class="mb-3"><a href="telaCadastro/telaCadastroFINAL.html" style="color: #2d2785;">Ainda não tem uma conta? Clique aqui!</a></li>
+          <li class="mb-3"><a href="../telaCadastro/telaCadastro.html" style="color: #2d2785;">Ainda não tem uma conta? Clique aqui!</a></li>
         </ul>
       </form>
     </div>
@@ -339,9 +350,9 @@
   <footer class="my-5 pt-5 text-body-secondary text-center text-small">
     <p class="mb-1">&copy; 2023 Conect US</p>
     <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacidade</a></li>
-      <li class="list-inline-item"><a href="#">Termos</a></li>
-      <li class="list-inline-item"><a href="#">FAQ</a></li>
+      <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html">Privacidade</a></li>
+      <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html">Termos</a></li>
+      <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html">FAQ</a></li>
     </ul>
   </footer>
 </div>
