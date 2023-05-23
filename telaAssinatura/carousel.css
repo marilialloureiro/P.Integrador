@@ -32,13 +32,6 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
-
-.container-breadcrumb{
-  padding-left:0.5rem;
-  padding-top:0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #2D2785;
