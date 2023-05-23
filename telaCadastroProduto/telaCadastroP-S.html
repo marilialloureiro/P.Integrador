@@ -205,7 +205,7 @@
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md fixed-top">
     <div class="container-fluid align-items-center">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../telaInicial/telaInicio.html">
         <img class="d-block mb-6" src="logoBranco.png" alt="" width="100"  height="50">
       </a>
       <div class="dropdown">
@@ -214,8 +214,8 @@
           Menu
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Produtos</a>
-          <a class="dropdown-item" href="#">Serviços</a>
+          <a class="dropdown-item" href="../telaProduto/Produtos.html">Produtos</a>
+          <a class="dropdown-item" href="../telaServiço/Serviços.html">Serviços</a>
         </div>
       </div>
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -238,7 +238,7 @@
 
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="../telaLogin/telaLogin.html">
                 <img src="usuario_branco.png" alt="Ícone de Login" width="40" height="40">
               </a>
             </li>
@@ -285,7 +285,7 @@
           <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
             <h1 class="display-4 fw-normal">Cadastre seu produto/serviço</h1><br>
           </div>
-<hr>
+
         </div>
         <script>
           var contador = 1; // Inicializa o contador com 1
@@ -300,12 +300,13 @@
         Codigo do produto
         <br>
         <input type="text" placeholder="" id="codigoProduto" readonly size="10">
-
+        <br>
         <!-- campo para escolher se o item é produto ou serviço -->
-        <div style="text-align: center;">
+        <div style="text-align: left;">
+          <br>
           <p>Tipo:
-            Serviço <input type='radio' name='gem' value='S' />
-            Produto <input type='radio' name='gem' value='P' />
+            Serviço   <input type='radio' name='gem' value='S' />
+            Produto   <input type='radio' name='gem' value='P' />
           </p>
           <p>
             <script>
@@ -336,14 +337,8 @@
                 <p style="text-align: center; margin-top: 10px; font-weight: bold;"></p>
               </div>
             </div>
-            
           </p>
-          
         </div>
-
-
-
-
 
         <div class="row" style="text-align: left;">
           <div class="col-sm-12" style="margin: 0 auto;">
