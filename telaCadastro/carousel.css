@@ -282,10 +282,6 @@ body {
   }
 }
 
-.container {
-  max-width: 960px;
-}
-
 .form-check-input:checked {
   background-color: #2d2785;
   border-color: #2d2785;
