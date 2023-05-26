@@ -120,6 +120,13 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+.container-breadcrumb{
+  padding-left:0.5rem;
+  padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;

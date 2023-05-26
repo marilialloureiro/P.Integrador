@@ -301,7 +301,7 @@
     <div class="container-breadcrumb">
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="../telaInicial/telaInicio.html">Home</a></li>
            <li class="breadcrumb-item active" aria-current="page">Login</li>
            <li class="breadcrumb-item active" aria-current="page">Recuperação de Senha</li>
         </ol>
@@ -330,8 +330,16 @@
             
           </label>
         </div>
-        <a class="w-100 btn btn-lg btn-primary" href="retorno.html" type="submit">Enviar</a>
-  
+        
+
+        <a class="w-100 btn btn-lg btn-primary" href="../telaLogin/retorno.html" type="submit" onclick="exibirMensagem()">Enviar</a>
+
+        <script>
+          function exibirMensagem() {
+            alert("O código para recuperação de senha foi enviado para seu e-mail");
+          }
+        </script>
+
         <ul class="list-unstyled"> 
           <li class="mb-3"><a href="#" style="color: #2d2785;"></a></li>
          
@@ -346,7 +354,7 @@
     <ul class="list-inline">
       <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html">Privacidade</a></li>
       <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html">Termos</a></li>
-      <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html">FAQ</a></li>
+      <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html">Suporte</a></li>
     </ul>
   </footer>
 </div>
