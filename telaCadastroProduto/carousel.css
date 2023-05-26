@@ -83,6 +83,10 @@ body {
   --bs-gradient: none;
 }
 
+.container-breadcrumb{
+  padding: 6px
+}
+
 .text-bg-primary {
   color: #fff!important;
   background-color: RGBA(45,39,133,var(--bs-bg-opacity,1))!important;
@@ -443,7 +447,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fffff;
+  color: #fff;
   background-color: #2d2785;
   background-clip: padding-box;
   border: var(--bs-border-width) solid var(--bs-border-color);
