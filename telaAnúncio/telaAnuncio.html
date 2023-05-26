@@ -105,7 +105,7 @@
   <header data-bs-theme="dark">
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container-fluid align-items-center">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="../telaInicial/telaInicio.html">
           <img class="d-block mb-6" src="logoBranco.png" alt="" width="100" height="50">
         </a>
       <div class="dropdown">
@@ -113,13 +113,13 @@
               Menu
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Produtos</a>
-              <a class="dropdown-item" href="#">Serviços</a>
+              <a class="dropdown-item" href="../telaProduto/Produtos.html">Produtos</a>
+              <a class="dropdown-item" href="../telaServiço/Serviços.html">Serviços</a>
           </div>
       </div>
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Conheça os planos</a>
+            <a class="nav-link active" aria-current="page" href="../telaPlanos/telaPlanos.html">Conheça os planos</a>
         </li>
     </ul>
         <form class="d-flex mx-auto" role="search">
@@ -135,7 +135,7 @@
   
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">
+                      <a class="nav-link active" aria-current="page" href="../telaLogin/telaLogin.html">
                           <img src="usuario_branco.png" alt="Ícone de Login" width="40" height="40" >
                       </a>
                   </li>
@@ -170,8 +170,8 @@
   <div class="container-breadcrumb">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Produtos</a></li>
+        <li class="breadcrumb-item"><a href="../telaInicial/telaInicio.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../telaProduto/Produtos.html">Produtos</a></li>
         <li class="breadcrumb-item active" aria-current="page">Planners</li>
       </ol>
     </nav>
@@ -224,11 +224,64 @@
             <li class="list-group-item">Whastapp: (11)9 1234-5678</li>
             <li class="list-group-item">Instagram: @planner.bymarilia</li>
           </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Denunciar</a>
-          </div>
+          
+          <style>
+            /* Estilos para o pop-up */
+            .popup {
+                display: none;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                border: #2d2785;
+                box-shadow: 0 0 10px #2d2785;
+                z-index: 9999;
+            }
+        
+            .popup p {
+                margin: 0;
+            }
+        
+            .popup .close {
+                position: absolute;
+                top: 5px;
+                right: 10px;
+                color: #999;
+                cursor: pointer;
+            }
+        </style>
+        
+        <div class="card-body">
+            <a href="#" class="card-link" onclick="showPopup()">Denunciar</a>
         </div>
+        
+        <div id="popup" class="popup">
+            <span class="close" onclick="hidePopup()">&times;</span>
+            <p>Para denunciar esse anúncio,</p>
+            <p><strong>enviar o e-mail para:</strong> </p>
+            <p><strong>apoio@conectus.com.br</strong></p>
+            <p>com o título DENÚNCIA</p>
+
+        </div>
+        
+        <script>
+            function showPopup() {
+                var popup = document.getElementById("popup");
+                popup.style.display = "block";
+            }
+        
+            function hidePopup() {
+                var popup = document.getElementById("popup");
+                popup.style.display = "none";
+            }
+        </script>
+        
+      
       </div>
+      
     </div>
   </div>
 
@@ -239,9 +292,9 @@
   
     <p class="mb-1">&copy; 2023 Conect US</p>
     <ul class="list-inline">
-      <li class="list-inline-item"><a href="#" style="color: #2d2785;">Privacidade</a></li>
-      <li class="list-inline-item"><a href="#" style="color: #2d2785;">Termos</a></li>
-      <li class="list-inline-item"><a href="#" style="color: #2d2785;">Suporte</a></li>
+      <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html" style="color: #2d2785;">Privacidade</a></li>
+      <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html" style="color: #2d2785;">Termos</a></li>
+      <li class="list-inline-item"><a href="../telaPrivacidade/privacidadeatt.html" style="color: #2d2785;">Suporte</a></li>
     </ul>
   </footer>
 </div>
