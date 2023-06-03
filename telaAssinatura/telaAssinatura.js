@@ -20,27 +20,33 @@
 
 
 function verificaOpcaoRadioButton(){
-  var rbtn2 = document.getElementById("rbtnpria2")
+  var rbtn2 = document.getElementById("")
 
-  if (document.getElementById("rbtnpria1").checked){
+  if (document.getElementById("plano1").checked){
 
-    resultado = "checado o primeiro"
+    resultado = "R$5,00"
+    plano = "Plano Start"
+    detalhes = "1 anúncio + Suporte via e-mail"
 
-
-  }else if (rbtn2.checked){
-    resultado = "checado o segundo"
+  }
+  
+  else if (plano2.checked){
+    resultado = "R$10,00"
+    plano = "Plano Pro"
+    detalhes = "5 anúncios + Suporte via e-mail"
   }
 
-  if (true){
-
-    var2 = "primeiro if"
-
-
-  }else if (false){
-    var2 = "segundo if"
+  else if (plano3.checked){
+    resultado = "R$20,00"
+    plano = "Plano Premium"
+    detalhes = "15 anúncios + Suporte via e-mail"
   }
 
-  document.getElementById("mudaValor").innerHTML = resultado + var2
+  
+
+  document.getElementById("mudaValor").innerHTML = resultado
+  document.getElementById("mudaPlano").innerHTML = plano
+  document.getElementById("mudadetalhes").innerHTML = detalhes
 
 }
 

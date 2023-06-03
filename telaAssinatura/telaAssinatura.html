@@ -323,7 +323,10 @@
                   <li>1 anúncio</li>
                   <li>Suporte via e-mail</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Assinar</button>
+                <label for="plano1" class="w-100 btn btn-lg btn-outline-primary">
+                  
+                  <input id="plano1" name="rbtnPrimeiraAssinatura" type="radio" class="form-check-input" onclick="verificaOpcaoRadioButton()" required="">
+                </label>
               </div>
             </div>
           </div>
@@ -338,7 +341,10 @@
                   <li>5 anúncios</li>
                   <li>Suporte via e-mail</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Assinar</button>
+                <label for="plano2" class="w-100 btn btn-lg btn-outline-primary">
+                  
+                  <input id="plano2" name="rbtnPrimeiraAssinatura" type="radio" class="form-check-input" onclick="verificaOpcaoRadioButton()" required="">
+                </label>
               </div>
             </div>
           </div>
@@ -353,7 +359,11 @@
                   <li>15 anúncios</li>
                   <li>Suporte via e-mail</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Assinar</button>
+                <label for="plano3" class="w-100 btn btn-lg btn-outline-primary">
+                  
+                  <input id="plano3" name="rbtnPrimeiraAssinatura" type="radio" class="form-check-input" onclick="verificaOpcaoRadioButton()" required="">
+                </label>
+                
               </div>
             </div>
           </div>
@@ -386,14 +396,13 @@
                   <ul class="list-group mb-3">
                     <li class="list-group-item d-flex justify-content-between lh-sm">
                       <div>
-                        <h6 class="my-0">Plano Premium</h6>
-                        <small class="text-body-secondary">Valor mensal. </br>15 Anúncios + Suporte via e-mail</small>
+                        <h6 id="mudaPlano" class="my-0">Selecionar Plano</h6>
+                        <small id="mudadetalhes" class="text-body-secondary">Valor mensal. </br></small>
                       </div>
-                      <span class="text-body-secondary">R$20,00</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between">
                       <span>Total (R$)</span>
-                      <strong>R$20,00</strong>
+                      <strong id="mudaValor"></strong>
                     </li>
                   </ul>
 
